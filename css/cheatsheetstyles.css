@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/astronomy-g2ab0e48f8_1280.jpg);
+    
+    
+}
+
+body h1{
+    color: white;
+}
+
+body h1 a{
+    color: white;
+}
+
+
+/*Cheatsheet home*/
+.cheatsheet-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cheatsheethome{
+    width: 80%;
+    height: 80vh;
+    background-color: transparent;
+    border-radius: 15px;
+    overflow-y: scroll ;
+    overflow-x: hidden;
+    background-color: rgba(0,0,0,0.2);
+    backdrop-filter: blur(12px);
+}
+
+.scroller{
+    scrollbar-corner:5px;
+}
+
+  
+
+.cheatsheethome h1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cheatsheethome .card-header img{
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 25px; */
+}
+
+.cheatsheethome .card-body{
+    text-align: center;
+    color: blueviolet;
+    font-weight: 700;
+}
+
+
+.cheatsheethome .card{
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    box-shadow: 0 2px 9px 5px rgb(152, 151, 152);
+}
+
+
+.cheatsheethome .card a{
+    text-decoration: none;
+}
+
+.cheatsheethome .card:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.cheatsheethome .colorpicker img{
+    width: 100%;
+    margin-left: 5%;
+}
+
+.interview img{
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+
+/*Cheatsheet content page*/
+
+.topics__btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px !important;
+}
+
+.topics__btns{
+    margin: 20px;
+}
+
+.topic__btn{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    color: blueviolet;
+    margin: 0 10px;
+    width: fit-content !important;
+} 
+
+
+.code-btn{
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 0 10px;
+    width: fit-content !important;
+}
+
+
+.hide{
+    display: none;
+}
+
+.topic__holder{
+    width: 70%;
+    overflow-y: scroll;
+    height: 300px;
+    background-color: white;
+    margin-left: 15%;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: justify;
+    margin-bottom: 50px !important;
+}
+
+.content__code{
+    height: 30px;
+}
+
+.code__container p{
+margin-top: 30px;
+}
+
+
